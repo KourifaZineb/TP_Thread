@@ -1,0 +1,13 @@
+On souhaite créer une simple application pour mettant en évidence un comportement classique
+en programmation multi-threads.
+1. Écrivez une classe Talkative qui contient un constructeur prenant en paramètre un entier
+qui est un attribut de la classe ;
+2. Modifiez votre classe afin qu’elle implémente Runnable ;
+3. Redéfinissez la méthode run afin qu’elle affiche 100 fois la valeur de l’attribut contenu
+par la classe ;
+4. Dans une méthode statique main créez 10 instances de la classe Thread. Chacune de ces
+instances prendra en paramètre une nouvelle instance d’un objet de type Talkative.
+Chacun des objets de type Talkative doit être construit en prenant en paramètre un entier
+unique ;
+5. Appelez la méthode start sur chacun des objets de type Thread qui ont été créé.
+6. Que constatez-vous ?
